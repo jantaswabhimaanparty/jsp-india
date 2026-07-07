@@ -1,0 +1,77 @@
+jsp-india/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── package.json
+│
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── index.html
+│   ├── src/
+│   │   ├── main.jsx
+│   │   ├── App.jsx
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Button.jsx
+│   │   │   ├── Card.jsx
+│   │   │   └── Loader.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── News.jsx
+│   │   │   ├── Membership.jsx
+│   │   │   └── Profile.jsx
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── styles/
+│
+├── backend/
+│   ├── package.json
+│   ├── .env.example
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── server.js
+│   │   ├── config/
+│   │   │   └── database.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── memberController.js
+│   │   │   └── newsController.js
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js
+│   │   │   ├── memberRoutes.js
+│   │   │   └── newsRoutes.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   └── errorHandler.js
+│   │   ├── models/
+│   │   │   ├── Member.js
+│   │   │   └── News.js
+│   │   └── utils/
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── migrations/
+│
+├── mobile/
+│
+├── docs/
+│   ├── Constitution.pdf
+│   ├── Vision2047.pdf
+│   └── Manifesto.pdf
+│
+├── deployment/
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── nginx.conf
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
